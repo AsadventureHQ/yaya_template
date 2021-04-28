@@ -1,0 +1,40 @@
+Regardez notre newsletter via votre navigateur web :
+<%@ include view='rc_be_yaya_personalization_mirrorpage' %>
+
++++++
+YAYA
++++++
+
+-----------------
+LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.
+-----------------
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus justo sed mi tincidunt pretium. Duis ante sapien, viverra ac purus et, commodo suscipit metus. Integer fermentum pellentesque libero nec convallis. Nunc efficitur lacus feugiat, pellentesque nisi non, elementum urna. In pretium aliquet convallis. Duis ligula ligula, euismod at purus ut, pulvinar consectetur sem. Vestibulum hendrerit nulla purus, in tincidunt justo laoreet sed. Morbi magna mi, bibendum in luctus in, maximus at ligula. Sed mattis accumsan augue, non venenatis felis ornare eu. 
+
+[ + ] Lorem ipsum dolor sit amet:
+https://www.yaya.be/fr.html
+
+*********************************************************************************************
+
+[ + ] Shop:
+https://www.yaya.be/fr.html
+
+[ + ] Lookbook:
+https://www.yaya.be/fr/lookbook.html
+
+[ + ] Stories:
+https://www.yaya.be/fr/magasins.html
+
+*********************************************************************************************
+
+Vous recevez cette lettre d'information parce que vous vous êtes inscrit(e) chez YAYA.
+
+Cette lettre d'information a été envoyée à <%= recipient.email %>
+
+[ + ] Désabonnez-vous simplement ?
+<%@ include view='rc_be_yaya_unsubscribe_fr' %>
+
+[ + ] Lisez notre Vie privée :
+https://www.yaya.be/fr/legals/privacy-policy.html
+
+© <%= formatDate(new Date(), "%4Y") %> All rights reserved YAYA

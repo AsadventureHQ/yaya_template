@@ -1,0 +1,40 @@
+Moeilijkheden om de mail te lezen? Bekijk de online versie:
+<%@ include view='rc_be_yaya_personalization_mirrorpage' %>
+
++++++
+YAYA
++++++
+
+-----------------
+LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.
+-----------------
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus justo sed mi tincidunt pretium. Duis ante sapien, viverra ac purus et, commodo suscipit metus. Integer fermentum pellentesque libero nec convallis. Nunc efficitur lacus feugiat, pellentesque nisi non, elementum urna. In pretium aliquet convallis. Duis ligula ligula, euismod at purus ut, pulvinar consectetur sem. Vestibulum hendrerit nulla purus, in tincidunt justo laoreet sed. Morbi magna mi, bibendum in luctus in, maximus at ligula. Sed mattis accumsan augue, non venenatis felis ornare eu. 
+
+[ + ] Lorem ipsum dolor sit amet:
+https://www.yaya.be/nl.html
+
+*********************************************************************************************
+
+[ + ] Shop:
+https://www.yaya.be/nl.html
+
+[ + ] Lookbook:
+https://www.yaya.be/nl/lookbook.html
+
+[ + ] Stories:
+https://www.yaya.be/nl/winkels.html
+
+*********************************************************************************************
+
+Je ontvangt deze mail omdat je je hebt aangemeld bij YAYA
+
+Deze e-mail is verstuurd naar <%= recipient.email %>
+
+[ + ] Uitschrijven?
+<%@ include view='rc_be_yaya_unsubscribe_nl' %>
+
+[ + ] Lees onze Privacy Policy:
+https://www.yaya.be/nl/legals/privacy-policy.html
+
+© <%= formatDate(new Date(), "%4Y") %> All rights reserved YAYA
